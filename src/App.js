@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Navbar, Section1 } from "./components";
 
 const App = () => {
   return (
     <div className="">
       <Navbar />
+      <Section1 />
     </div>
   );
 };
