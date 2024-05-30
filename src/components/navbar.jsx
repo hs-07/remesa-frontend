@@ -11,8 +11,8 @@ const Navbar = () => {
   ];
 
   return (
-    <>
-      <nav className="hidden lg:flex w-full h-[4rem] px-12 items-center justify-between ">
+    <div className="w-full">
+      <nav className="hidden lg:flex w-full h-[4rem] px-12 py-2 items-center justify-between ">
         <div className="h-full">
           <img src="/images/logo.png" alt="remesa" className="h-full py-2" />
         </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
         </nav>
         {isOpen && (
-          <div className="w-full h-[100vh] z-[99]">
+          <div className="w-full h-[100vh] bg-white z-[99] absolute">
             <ul className="flex flex-col justify-start items-center h-full space-y-6 py-12 font-semibold">
               {Navlinks.map((link, index) => (
                 <li
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
         )}
       </>
-    </>
+    </div>
   );
 };
 
