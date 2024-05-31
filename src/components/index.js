@@ -1,5 +1,6 @@
 export { default as Navbar } from "./navbar";
 export { default as Label } from "./label";
+export { default as Footer } from "./footer";
 
 export { default as Section1 } from "./section1";
 export { default as Section2 } from "./section2";
