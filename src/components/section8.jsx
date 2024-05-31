@@ -114,7 +114,6 @@ const TestimonialsCarousel = () => {
                 key={testimonial.id}
                 className="w-full sm:w-1/2 lg:w-1/4 flex-shrink-0"
               >
-                {/* Replace this div with your card component */}
                 <div className="p-4 bg-green-100 rounded-lg shadow-md">
                   <TestimonialCard />
                 </div>
