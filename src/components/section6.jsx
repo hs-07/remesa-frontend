@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const section4 = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 lg:h-[80vh] items-center lg:pl-12 md:px-6 px-4 lg:px-0 gap-12 lg:gap-0 py-12 lg:py-0">
+    <div className="grid lg:grid-cols-2 grid-cols-1 lg:h-[80vh] items-center lg:pl-12 md:px-6 px-4 lg:px-0 gap-12 lg:gap-0 py-12">
       <div className="flex order-2 lg:order-1 flex-col gap-4 w-full items-start md:items-center lg:items-start text-[#0B280D]">
         <span className=" text-[32px] md:text-[48px] lg:text-[90px] font-[600] leading-[0.9]">
           24/7 Support
