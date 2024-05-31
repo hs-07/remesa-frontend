@@ -8,7 +8,7 @@ const section7 = () => {
         <span className="text-[32px] md:text-[48px] lg:text-[90px] font-[600] text-[#95E095]">
           Easy-to-Use
         </span>
-        <p className="text-[#95E095] text-[32px] text-center">
+        <p className="text-[#95E095] text-[16px] lg:text-[32px] text-center">
           Transfer money on the go with our user-friendly website.
         </p>
         <div className="flex gap-4 pt-4 flex-col md:flex-row">
