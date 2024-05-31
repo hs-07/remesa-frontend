@@ -7,6 +7,7 @@ import {
   Section3,
   Section4,
   Section5,
+  Section6,
 } from "./components";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6 />
     </div>
   );
 };
