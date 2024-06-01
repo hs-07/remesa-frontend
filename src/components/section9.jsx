@@ -13,7 +13,7 @@ const section9 = () => {
             <span className="text-white">Step 1</span>
             <p className="text-[#95E095]">Create an account in minutes</p>
           </div>
-          <button className="bg-[#2A8F2B] text-white w-full rounded-lg">
+          <button className="bg-[#2A8F2B] text-[16px] h-[50px] text-white w-full rounded-lg">
             Sign Up
           </button>
         </div>
@@ -29,7 +29,7 @@ const section9 = () => {
               Select who you want to send money to
             </p>
           </div>
-          <button className="bg-[#2A8F2B] text-white w-full rounded-lg">
+          <button className="bg-[#2A8F2B] text-[16px] h-[50px] text-white w-full rounded-lg">
             Sign Up
           </button>
         </div>
@@ -41,7 +41,7 @@ const section9 = () => {
               Complete the transfer quickly and securely
             </p>
           </div>
-          <button className="bg-[#2A8F2B] text-white w-full rounded-lg">
+          <button className="bg-[#2A8F2B] text-[16px] h-[50px] text-white w-full rounded-lg">
             Sign Up
           </button>
         </div>

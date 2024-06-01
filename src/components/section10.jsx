@@ -10,7 +10,7 @@ const section19 = () => {
         <p className="text-[#0C3506] text-[24px] font-[400] pb-10">
           Join thousands of satisfied customers today.
         </p>
-        <button className="w-48 py-3 font-[500] bg-[#39AE3A] border-none text-white rounded-lg">
+        <button className="w-48 text-[16px] h-[50px] font-[500] bg-[#39AE3A] border-none text-white rounded-lg">
           {" "}
           Sign Up Now
         </button>

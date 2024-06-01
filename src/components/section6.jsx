@@ -14,10 +14,10 @@ const section4 = () => {
           team available around the clock.
         </p>
         <div className="flex gap-4 pt-12 flex-col md:flex-row w-full items-center">
-          <button className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 py-3 rounded-lg items-center">
+          <button className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 text-[16px] h-[50px] rounded-lg items-center">
             <MdEmail /> Email Support
           </button>
-          <button className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 py-3 rounded-lg items-center">
+          <button className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 text-[16px] h-[50px] rounded-lg items-center">
             <IoChatbubbleEllipses /> Chat Support
           </button>
         </div>

@@ -25,7 +25,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="">
-            <button className="text-white bg-[#39AE3A] border-none py-2 px-4 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
+            <button className="text-white bg-[#39AE3A] border-none text-[16px] h-[50px] px-4 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
               Sign Up
             </button>
           </div>

@@ -48,7 +48,7 @@ const Convertor = () => {
       </div>
       <button
         className={
-          "w-full text-white bg-[#39AE3A] border-none py-[12px] rounded-xl mt-8 font-semibold hover:bg-[#247125] transition-all ease-in-out"
+          "w-full text-white bg-[#39AE3A] border-none text-[16px] h-[50px] rounded-xl mt-8 font-semibold hover:bg-[#247125] transition-all ease-in-out"
         }
       >
         Get Started
