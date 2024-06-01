@@ -17,9 +17,9 @@ const TickerBanner = () => {
 
   return (
     <div className="w-full overflow-x-hidden -mt-4 mb-24">
-      <ul className="flex  items-center animate-scroll sm:gap-12 md:gap-10 gap-6 transition-all duration-300">
-        {tickers.map((ticker, index) => (
-          <li className="" key={index}>
+      <ul className="ticker flex items-center">
+        {tickers.concat(tickers).map((ticker, index) => (
+          <li className="mr-8" key={index}>
             <Label
               src={ticker.src}
               text={ticker.text}
