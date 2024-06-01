@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = () => {
   return (
-    <div className="bg-[#E2F7E1] rounded-lg flex flex-col w-full">
+    <div className=" rounded-lg flex flex-col w-full">
       <p className="">
         I've been using this international money transfer app for over a year
         now, and I am thoroughly impressed with its performance. The interface

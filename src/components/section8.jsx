@@ -114,7 +114,7 @@ const TestimonialsCarousel = () => {
                 key={testimonial.id}
                 className="w-full sm:w-1/2 lg:w-1/4 flex-shrink-0"
               >
-                <div className="p-4 bg-green-100 rounded-lg shadow-md">
+                <div className="p-4 bg-[#E2F7E1] rounded-lg shadow-md">
                   <TestimonialCard />
                 </div>
               </div>
