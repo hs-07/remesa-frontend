@@ -3,7 +3,7 @@ import React from "react";
 const section7 = () => {
   return (
     <div className="p-4 md:p-6 lg:p-12 w-full mt-20">
-      <div className="bg-[#0B280D] w-full py-12 justify-center items-center flex flex-col gap-4 rounded-[50px] px-6">
+      <div className="bg-[#0B280D] w-full py-12 justify-center items-center flex flex-col gap-4 rounded-3xl lg:rounded-[50px] px-6">
         <img src="/images/smile.png" alt="smile" className="" />
         <span className="text-[32px] md:text-[48px] lg:text-[90px] font-[600] text-[#95E095]">
           Easy-to-Use
