@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const Navlinks = [
     { title: "Home", path: "/" },
-    { title: "About Us", path: "/" },
-    { title: "Services", path: "/" },
-    { title: "Rates", path: "/" },
-    { title: "Contact Us", path: "/" },
+    { title: "About Us", path: "/about" },
+    { title: "Privacy Policy", path: "/privacyPolicy" },
+    { title: "Terms and Conditions", path: "/termsAndConditions" },
+    { title: "Cookie Policy", path: "/cookiePolicy" },
+    { title: "Contact Us", path: "/contact" },
   ];
 
   return (
@@ -19,13 +21,22 @@ const Navbar = () => {
         <div className="flex items-center gap-6">
           <ul className="flex justify-end space-x-6">
             {Navlinks.map((link, index) => (
-              <li key={index} className="cursor-pointer font-normal">
+              <NavLink
+                exact
+                to={link.path}
+                key={index}
+                className={({ isActive }) =>
+                  `cursor-pointer font-[400] text-[16px] ${
+                    isActive ? "text-[#39AE3A]" : "text-black"
+                  }`
+                }
+              >
                 {link.title}
-              </li>
+              </NavLink>
             ))}
           </ul>
           <div className="">
-            <button className="text-white bg-[#39AE3A] border-none text-[16px] h-[50px] px-4 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
+            <button className="text-white bg-[#39AE3A] border-none text-[16px] h-[50px] w-32 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
               Sign Up
             </button>
           </div>
