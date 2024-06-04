@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./components";
 import { Route, Routes } from "react-router-dom";
-import { LandingPage } from "./pages";
+import { LandingPage, About, CookiePolicy, Contact, ComingSoon } from "./pages";
 
 const App = () => {
   return (
@@ -10,6 +10,10 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/cookiePolicy" element={<CookiePolicy />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/comingSoon" element={<ComingSoon />} />
         </Routes>
       </div>
     </div>
