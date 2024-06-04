@@ -1,7 +1,15 @@
 import React from "react";
 import { Navbar } from "./components";
 import { Route, Routes } from "react-router-dom";
-import { LandingPage, About, CookiePolicy, Contact, ComingSoon } from "./pages";
+import {
+  LandingPage,
+  About,
+  CookiePolicy,
+  Contact,
+  ComingSoon,
+  PrivacyPolicy,
+  TermsAndConditions,
+} from "./pages";
 
 const App = () => {
   return (
@@ -14,6 +22,8 @@ const App = () => {
           <Route path="/cookiePolicy" element={<CookiePolicy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/comingSoon" element={<ComingSoon />} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/termsAndConditions" element={<TermsAndConditions />} />
         </Routes>
       </div>
     </div>
