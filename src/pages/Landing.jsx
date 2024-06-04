@@ -16,7 +16,7 @@ import {
 
 const Landing = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full">
       <Section1 />
       <TickerBanner />
       <Section2 />
