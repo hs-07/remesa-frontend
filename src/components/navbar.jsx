@@ -67,12 +67,18 @@ const Navbar = () => {
           <div className="w-full h-[100vh] bg-white z-[99] absolute">
             <ul className="flex flex-col justify-start items-center h-full space-y-6 py-12 font-semibold">
               {Navlinks.map((link, index) => (
-                <li
+                <NavLink
+                  exact
+                  to={link.path}
                   key={index}
-                  className="cursor-pointer font-normal text-black font-semibold"
+                  className={({ isActive }) =>
+                    `cursor-pointer font-[400] text-[16px] ${
+                      isActive ? "text-[#39AE3A]" : "text-black"
+                    }`
+                  }
                 >
                   {link.title}
-                </li>
+                </NavLink>
               ))}
               <button className="text-white bg-[#39AE3A] border-none py-3 px-8 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
                 Sign Up
