@@ -1,6 +1,6 @@
 import React from "react";
-import { IoChatbubbleEllipses } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const section4 = () => {
   return (
@@ -14,12 +14,12 @@ const section4 = () => {
           team available around the clock.
         </p>
         <div className="flex gap-4 pt-12 flex-col md:flex-row w-full items-center">
-          <button className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 text-[16px] h-[50px] rounded-lg items-center">
-            <MdEmail /> Email Support
-          </button>
-          <button className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 text-[16px] h-[50px] rounded-lg items-center">
-            <IoChatbubbleEllipses /> Chat Support
-          </button>
+          <Link
+            to={"/contact"}
+            className="flex gap-2 text-[#95E095] bg-[#0B280D] px-4 text-[16px] h-[50px] rounded-lg items-center"
+          >
+            <MdEmail /> Contact Us
+          </Link>
         </div>
       </div>
       <div className="flex order-1 lg:order-2 w-full flex justify-center p-4 lg:p-0 h-full">
