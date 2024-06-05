@@ -33,9 +33,14 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="">
-            <button className="text-white bg-[#39AE3A] border-none text-[16px] h-[50px] w-32 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
-              Sign Up
-            </button>
+            <a
+              href="https://ocp.mtbs.co/Account/Login?ReturnUrl=%2f"
+              className=""
+            >
+              <button className="text-white bg-[#39AE3A] border-none text-[16px] h-[50px] w-32 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
+                Sign Up
+              </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -73,13 +78,19 @@ const Navbar = () => {
                       isActive ? "text-[#39AE3A]" : "text-black"
                     }`
                   }
+                  onClick={() => setIsOpen((prev) => !prev)}
                 >
                   {link.title}
                 </NavLink>
               ))}
-              <button className="text-white bg-[#39AE3A] border-none py-3 px-8 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
-                Sign Up
-              </button>
+              <a
+                href="https://ocp.mtbs.co/Account/Login?ReturnUrl=%2f"
+                className=""
+              >
+                <button className="text-white bg-[#39AE3A] border-none py-3 px-8 rounded-xl hover:bg-[#247125] transition-all ease-in-out">
+                  Sign Up
+                </button>
+              </a>
             </ul>
           </div>
         )}

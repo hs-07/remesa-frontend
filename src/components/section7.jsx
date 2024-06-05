@@ -12,12 +12,22 @@ const section7 = () => {
           Transfer money on the go with our user-friendly website.
         </p>
         <div className="flex gap-4 pt-4 flex-col md:flex-row">
-          <button className="border-2 border-[#95E095] bg-[#0C3506] text-[#95E095] rounded-lg w-56 text-[16px] h-[50px]">
-            Create Account
-          </button>
-          <button className="border-2 border-[#95E095] bg-[#0C3506] text-[#95E095] rounded-lg w-56 text-[16px] h-[50px]">
-            Login
-          </button>
+          <a
+            href="https://ocp.mtbs.co/Account/Login?ReturnUrl=%2f"
+            className=""
+          >
+            <button className="border-2 border-[#95E095] bg-[#0C3506] text-[#95E095] rounded-lg w-56 text-[16px] h-[50px]">
+              Create Account
+            </button>
+          </a>
+          <a
+            href="https://ocp.mtbs.co/Account/Login?ReturnUrl=%2f"
+            className=""
+          >
+            <button className="border-2 border-[#95E095] bg-[#0C3506] text-[#95E095] rounded-lg w-56 text-[16px] h-[50px]">
+              Login
+            </button>
+          </a>
         </div>
       </div>
     </div>
